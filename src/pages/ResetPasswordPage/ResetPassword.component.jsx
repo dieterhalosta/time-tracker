@@ -1,7 +1,7 @@
 import React from 'react';
 import {PageContainer, ResetPasswordContainer,LogoContainer, FormContainer  } from './ResetPassword.styles'
 import { ReactComponent as Logo } from '../../assets/Logo.svg';
-import ResetForm from '../../components/SignInForm/SignInForm.component'
+import ResetPasswordForm from '../../components/ResetForm/ResetForm.component'
 
 
 const ResetPasswordPage = () => {
@@ -11,8 +11,8 @@ const ResetPasswordPage = () => {
         <ResetPasswordContainer>
             <LogoContainer><Logo/></LogoContainer>
             <FormContainer>
-            <ResetForm/>
-            
+            <ResetPasswordForm/>
+
             </FormContainer>
         </ResetPasswordContainer>
         </PageContainer>
