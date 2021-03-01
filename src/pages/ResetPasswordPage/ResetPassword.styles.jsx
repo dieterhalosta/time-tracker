@@ -18,12 +18,13 @@ export const ResetPasswordContainer = styled.div`
   background-color: #505050;
   border-radius: 10px;
 `;
+
 export const LogoContainer = styled.div`
   display: flex;
   justify-content: centre;
   align-items: center;
   padding: 10px;
-  margin-bottom:40px;
-  
+  margin-bottom: 40px;
 `;
+
 export const FormContainer = styled.div``;

@@ -1,18 +1,19 @@
-import React from 'react'
-import { Switch, Route, Redirect } from "react-router-dom";
-import Header from '../../components/Header/Header.component'
+import React from "react";
+import Header from "../../components/Header/Header.component";
 
-const Dashboard = () => {
-    return(
-        <div>
-        <Header/>
-        <div>This is the dashboard
-            <div>Own tasks</div>
-            <div>Allocated Users</div>
-            <div>Allocated Projects</div>
-        </div>
-        </div>
-    )
-}
+const Dashboard = ({ checkUserSession, currentUser }) => {
+  return (
+    <div>
+      <Header />
 
-export default Dashboard
+      <div>
+        This is the dashboard
+        <div>Own tasks</div>
+        <div>Allocated Users</div>
+        <div>Allocated Projects</div>
+      </div>
+    </div>
+  );
+};
+
+export default Dashboard;

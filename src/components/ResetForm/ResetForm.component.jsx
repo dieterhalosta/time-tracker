@@ -15,7 +15,7 @@ const ResetPasswordForm = () => {
     email: "",
   });
 
-  const {email} = userEmail
+  const { email } = userEmail;
 
   const handleSubmit = async (event) => {
     event.preventDefault();

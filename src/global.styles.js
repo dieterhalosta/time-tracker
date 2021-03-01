@@ -20,7 +20,8 @@ export const GlobalStyle = createGlobalStyle`
 
 	a {
 		text-decoration: none;
-		
+		color: white;
+		font-weight: bold;
 	}
 
 	* {

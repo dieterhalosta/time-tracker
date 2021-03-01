@@ -23,6 +23,5 @@ export const LogoContainer = styled.div`
   justify-content: centre;
   align-items: center;
   padding: 10px;
-  
 `;
 export const FormContainer = styled.div``;

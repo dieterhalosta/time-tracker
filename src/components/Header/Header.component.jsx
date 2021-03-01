@@ -5,6 +5,7 @@ import {
   HeaderContainer,
   LogoContainer,
   OptionsContainer,
+  Tracker,
   OptionLink,
 } from "./Header.styles";
 
@@ -15,9 +16,10 @@ const Header = ({ currentUser, signOutStart }) => {
         <Logo className='logo' />
       </LogoContainer>
       <OptionsContainer>
+        <Tracker>START TRACKING</Tracker>
         <OptionLink to='/addtask'>ADD TASK</OptionLink>
-        <OptionLink to='/addproject'>ADD PROJECT</OptionLink>
         <OptionLink to='/adduser'>ADD USER</OptionLink>
+        <OptionLink to='/addproject'>CREATE PROJECT</OptionLink>
         <OptionLink to='/userdetails'>PROFILE</OptionLink>
         {currentUser ? (
           <OptionLink as='div' onClick={signOutStart}>
