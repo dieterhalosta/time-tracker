@@ -12,6 +12,7 @@ const ResetPasswordPage = () => {
             <LogoContainer><Logo/></LogoContainer>
             <FormContainer>
             <ResetForm/>
+            
             </FormContainer>
         </ResetPasswordContainer>
         </PageContainer>
