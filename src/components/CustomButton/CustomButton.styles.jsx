@@ -1,31 +1,30 @@
-import styled, { css } from 'styled-components';
+import styled, { css } from "styled-components";
 
 const buttonStyles = css`
-  background-color: #95DC66;
+  background-color: #95dc66;
   color: white;
   border: none;
   border-radius: 10px;
 
   &:hover {
-    background-color: #1A4B33;
+    background-color: #1a4b33;
     color: white;
   }
 `;
 
 const resetButtonStyles = css`
-  background-color: none;
+  background-color: transparent;
   color: white;
   border: none;
+  padding-right: 0px;
 
   &:hover {
-    color: #95DC66;
-
+    color: #95dc66;
   }
 `;
 
-
-const getButtonStyles = props => {
-    return props.reset ? resetButtonStyles : buttonStyles;
+const getButtonStyles = (props) => {
+  return props.reset ? resetButtonStyles : buttonStyles;
 };
 
 export const CustomButtonContainer = styled.button`
@@ -37,7 +36,7 @@ export const CustomButtonContainer = styled.button`
   padding: 0 35px 0 35px;
   font-size: 15px;
   text-transform: uppercase;
-  font-family: 'Open Sans Condensed';
+  font-family: "Open Sans Condensed";
   font-weight: bolder;
   cursor: pointer;
   display: flex;

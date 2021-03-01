@@ -12,7 +12,7 @@ export const GlobalStyle = createGlobalStyle`
         background-repeat: no-repeat;
         background-attachment: fixed;
 		background-size: cover;
-		overflow: none;
+		overflow: hidden;
 		@media screen and (max-width: 800px) {
 			padding: 10px;
 		}

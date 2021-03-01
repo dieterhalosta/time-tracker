@@ -4,6 +4,8 @@ import {
   SignInContainer,
   SignInTitle,
   ButtonsBarContainer,
+  ResetButtonContainer,
+  SignInButtonContainer,
 } from "./SignInForm.styles";
 
 import CustomButton from "../CustomButton/CustomButton.component";
@@ -37,7 +39,7 @@ const SignIn = () => {
           type='email'
           handleChange={handleChange}
           value={email}
-          label='email'
+          label='Email'
           required
         />
         <FormInput
@@ -49,7 +51,12 @@ const SignIn = () => {
           required
         />
         <ButtonsBarContainer>
-          <CustomButton type='submit'> Sign in </CustomButton>
+          <ResetButtonContainer>
+            <CustomButton reset>Reset Password</CustomButton>
+          </ResetButtonContainer>
+          <SignInButtonContainer>
+            <CustomButton type='submit'> Log in </CustomButton>
+          </SignInButtonContainer>
         </ButtonsBarContainer>
       </form>
     </SignInContainer>

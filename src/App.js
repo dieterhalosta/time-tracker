@@ -1,14 +1,14 @@
 import React from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import { GlobalStyle } from "./global.styles";
-import LogInPage from './pages/LogInPage/LogIn.component'
+import LogInPage from "./pages/LogInPage/LogIn.component";
 const App = () => {
   return (
     <BrowserRouter>
       <GlobalStyle />
-      <LogInPage/>
+      <LogInPage />
     </BrowserRouter>
   );
-}
+};
 
 export default App;
