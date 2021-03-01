@@ -1,17 +1,21 @@
 import React from "react";
+import {PageContainer,FirstSection,UserTasksContainer,AllocatedUsersContainer,SecondSection,AllocatedProjectsContainer} from './Dashboard.styles'
 import Header from "../../components/Header/Header.component";
 
 const Dashboard = ({ checkUserSession, currentUser }) => {
   return (
     <div>
       <Header />
-
-      <div>
-        This is the dashboard
-        <div>Own tasks</div>
-        <div>Allocated Users</div>
-        <div>Allocated Projects</div>
-      </div>
+      <PageContainer>
+        <FirstSection>
+        <UserTasksContainer>Own tasks</UserTasksContainer>
+        <AllocatedUsersContainer>Allocated Users</AllocatedUsersContainer>
+        </FirstSection>
+        <SecondSection>
+        <AllocatedProjectsContainer>Allocated Projects</AllocatedProjectsContainer>
+        </SecondSection>
+        
+      </PageContainer>
     </div>
   );
 };
