@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const PageContainer = styled.div`
-  height: 100%;
+  height: 650px;
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -23,6 +23,7 @@ export const LogoContainer = styled.div`
   justify-content: centre;
   align-items: center;
   padding: 10px;
+  margin-bottom:40px;
   
 `;
 export const FormContainer = styled.div``;

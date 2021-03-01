@@ -11,6 +11,7 @@ export const ResetFormTitle = styled.h2`
 `;
 
 export const ButtonsBarContainer = styled.div`
+  margin-top: 100px;
   margin-bottom: 20px;
 `;
 
