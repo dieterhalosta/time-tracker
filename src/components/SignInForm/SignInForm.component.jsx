@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+
 import {
   SignInContainer,
   SignInTitle,
@@ -47,11 +48,11 @@ const SignIn = () => {
           type='password'
           handleChange={handleChange}
           value={password}
-          label='password'
+          label='Password'
           required
         />
         <ButtonsBarContainer>
-          <ResetButtonContainer>
+          <ResetButtonContainer to='/resetpassword'>
             <CustomButton reset>Reset Password</CustomButton>
           </ResetButtonContainer>
           <SignInButtonContainer>

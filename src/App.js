@@ -1,13 +1,17 @@
 import React from "react";
-import { BrowserRouter } from "react-router-dom";
+import { Switch, Route, Redirect } from "react-router-dom";
 import { GlobalStyle } from "./global.styles";
 import LogInPage from "./pages/LogInPage/LogIn.component";
+import ResetPasswordPage from "./pages/ResetPasswordPage/ResetPassword.component";
 const App = () => {
   return (
-    <BrowserRouter>
+    <div>
       <GlobalStyle />
-      <LogInPage />
-    </BrowserRouter>
+      <Switch>
+        <Route exact path='/login' component={LogInPage} />
+        <Route exact path='/resetpassword' component={ResetPasswordPage} />
+      </Switch>
+    </div>
   );
 };
 

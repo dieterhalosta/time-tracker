@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const SignInContainer = styled.div`
   width: 100%;
@@ -14,7 +15,7 @@ export const ButtonsBarContainer = styled.div`
   margin-bottom: 20px;
 `;
 
-export const ResetButtonContainer = styled.div`
+export const ResetButtonContainer = styled(Link)`
   display: flex;
   justify-content: flex-end;
   margin-bottom: 20px;
