@@ -15,10 +15,10 @@ export const FirstSection = styled.div`
 `;
 
 export const SecondSection = styled.div`
-  height: 60%;
+  height: 50%;
   width: 100%;
+  display: flex;
   margin-top: 30px;
-  margin-right: 30px;
 `;
 
 const DefaultContainer = css`
@@ -29,7 +29,7 @@ const DefaultContainer = css`
 
 export const UserTasksContainer = styled.div`
   height: 100%;
-  width: 60%;
+  width: 65%;
   ${DefaultContainer}
 `;
 

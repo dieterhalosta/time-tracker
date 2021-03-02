@@ -1,9 +1,11 @@
 import styled from "styled-components";
 
 export const ResetContainer = styled.div`
+  height: 100%;
   width: 100%;
   display: flex;
   flex-direction: column;
+  margin-top: 30px;
 `;
 
 export const ResetFormTitle = styled.h2`
