@@ -1,8 +1,9 @@
 import React from "react";
 import {PageContainer,FirstSection,UserTasksContainer,AllocatedUsersContainer,SecondSection,AllocatedProjectsContainer} from './Dashboard.styles'
 import Header from "../../components/Header/Header.component";
+import SideBar from '../../components/SideBar/SideBar.component'
 
-const Dashboard = ({ checkUserSession, currentUser }) => {
+const DashboardPage = ({ checkUserSession, currentUser }) => {
   return (
     <div>
       <Header />
@@ -20,4 +21,4 @@ const Dashboard = ({ checkUserSession, currentUser }) => {
   );
 };
 
-export default Dashboard;
+export default DashboardPage;

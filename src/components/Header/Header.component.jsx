@@ -17,10 +17,10 @@ const Header = ({ currentUser, signOutStart }) => {
       </LogoContainer>
       <OptionsContainer>
         <Tracker>START TRACKING</Tracker>
-        <OptionLink to='/addtask'>ADD TASK</OptionLink>
+        {/* <OptionLink to='/addtask'>ADD TASK</OptionLink>
         <OptionLink to='/adduser'>ADD USER</OptionLink>
         <OptionLink to='/addproject'>CREATE PROJECT</OptionLink>
-        <OptionLink to='/userdetails'>PROFILE</OptionLink>
+        <OptionLink to='/userdetails'>PROFILE</OptionLink> */}
         {currentUser ? (
           <OptionLink as='div' onClick={signOutStart}>
             SIGN OUT

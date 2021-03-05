@@ -4,7 +4,7 @@ export const GlobalStyle = createGlobalStyle`
 	body {
 		width: 100vw;
 		height: 100vh;
-		font-family: 'Open Sans';
+		font-family: 'Roboto';
 		margin: 0;
 		padding: 20px 40px;
         color: white;
